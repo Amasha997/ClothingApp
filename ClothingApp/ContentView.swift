@@ -15,7 +15,7 @@ struct ContentView: View {
         ZStack {
             
             NavigationView()
-            
+                
             SplashScreenView(endAnimation: $endAnimation)
         }
     }
